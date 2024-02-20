@@ -234,6 +234,9 @@ x
     border-radius: var(--border-radius);
     margin-bottom: 1.25rem;
 }
+.order-form-input.error {
+    background: red;
+}
 .order-form-input input {
     padding: 1em .625em;
     background: var(--card-color-bg);

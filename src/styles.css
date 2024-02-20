@@ -55,3 +55,8 @@ body {
 .button:hover {
     background: var(--background-gradient-hover);
 }
+.button:disabled {
+    cursor: not-allowed;
+    color:grey;
+    background: #343434;
+}
